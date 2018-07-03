@@ -4,9 +4,9 @@ from conans import ConanFile, CMake, tools
 class HelloConan(ConanFile):
     name = "Hello"
     version = "0.3"
-    license = "<Put the package license here>"
+    license = "Apache-2.0"
     url = "<Package recipe repository url here, for issues about the package>"
-    description = "<Description of Hello here>"
+    description = "Awesome package"
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False]}
     default_options = "shared=False"
